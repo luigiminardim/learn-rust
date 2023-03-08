@@ -34,3 +34,9 @@ fn main() {
         }
     }
 }
+
+fn other_function() {
+    let a = ['a', 'b', 'c', 'd', 'e'];
+    let b = &a[1..3];
+    println!("{:?}", b);
+}
